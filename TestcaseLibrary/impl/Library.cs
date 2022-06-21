@@ -2,7 +2,7 @@
 
 namespace Cdsi
 {
-    public static class Library
+    public static partial class Library
     {
         public static IDictionary<string, testcase> Testcases = Factories.CreateTestcaseMap();
     }

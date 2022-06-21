@@ -7,7 +7,7 @@ namespace Cdsi.Testcases
 {
     public static class Factories
     {
-        private const string TestcaseResourceName = "TestcaseLibrary.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
+        private const string TestcaseResourceName = "Cdsi.Testcases.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
 
         public static IDictionary<string, testcase> CreateTestcaseMap()
         {
