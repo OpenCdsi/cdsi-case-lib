@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Testcases", "TestcaseLibrary\Cdsi.Testcases.csproj", "{C16D2B5D-DE6A-4956-85C6-6EC6298D3E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Testcases", "TestcaseLibrary\OpenCdsi.Testcases.csproj", "{C16D2B5D-DE6A-4956-85C6-6EC6298D3E3A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7D66DFEE-3641-436F-9D06-E872DABB6761}"
 EndProject

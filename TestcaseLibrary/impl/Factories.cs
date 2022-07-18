@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Text;
 using ExcelDataReader;
 
-namespace Cdsi.Testcases
+namespace OpenCdsi.Testcases
 {
     public static class Factories
     {

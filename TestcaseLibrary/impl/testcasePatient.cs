@@ -1,4 +1,4 @@
-﻿namespace Cdsi.Testcases
+﻿namespace OpenCdsi.Testcases
 {
     public class testcasePatient
     {

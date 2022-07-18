@@ -1,4 +1,4 @@
-﻿using Cdsi.Testcases;
+﻿using OpenCdsi.Testcases;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Cdsi.UnitTests

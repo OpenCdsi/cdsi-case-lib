@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Cdsi.Testcases
+namespace OpenCdsi.Testcases
 {
     public static class TestcaseHelpers
     {
