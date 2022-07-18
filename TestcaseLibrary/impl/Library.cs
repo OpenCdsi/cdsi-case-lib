@@ -1,6 +1,6 @@
 ﻿using OpenCdsi.Testcases;
 
-namespace Cdsi
+namespace OpenCdsi
 {
     public static partial class Library
     {

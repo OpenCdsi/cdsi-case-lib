@@ -1,7 +1,7 @@
 ﻿using OpenCdsi.Testcases;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.UnitTests
 {
     [TestClass]
     public class TestCaseTests
@@ -14,6 +14,7 @@ namespace Cdsi.UnitTests
         {
             var sut = Library.Testcases[TID];
             Assert.IsInstanceOfType(sut, typeof(testcase));
+            Assert.AreEqual(sut.CdcTestId,TID);
         }
 
         [TestMethod]
