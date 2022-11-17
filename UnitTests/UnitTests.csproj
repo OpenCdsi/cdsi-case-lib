@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestcaseLibrary\OpenCdsi.Testcases.csproj" />
+    <ProjectReference Include="..\TestcaseLibrary\OpenCdsi.Cases.csproj" />
   </ItemGroup>
 
 </Project>

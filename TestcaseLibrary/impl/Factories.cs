@@ -3,11 +3,11 @@ using System.Reflection;
 using System.Text;
 using ExcelDataReader;
 
-namespace OpenCdsi.Testcases
+namespace OpenCdsi.Cases
 {
     public static class Factories
     {
-        private const string TestcaseResourceName = "OpenCdsi.Testcases.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
+        private const string TestcaseResourceName = "OpenCdsi.Cases.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
 
         public static IDictionary<string, testcase> CreateTestcaseMap()
         {

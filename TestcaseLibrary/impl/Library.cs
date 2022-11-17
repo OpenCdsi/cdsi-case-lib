@@ -1,4 +1,4 @@
-﻿using OpenCdsi.Testcases;
+﻿using OpenCdsi.Cases;
 
 namespace OpenCdsi
 {
