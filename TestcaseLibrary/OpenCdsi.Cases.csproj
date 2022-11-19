@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	  <PackageId>OpenCdsi.Cases</PackageId>
 	  <RepositoryType>git</RepositoryType>
-	  <RepositoryUrl>https://github.com/opencdsi/cdsi-case-lib</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/opencdsi/ocdsi-cases</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
