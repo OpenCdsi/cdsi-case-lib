@@ -1,5 +1,6 @@
 ﻿using OpenCdsi.Cases;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace OpenCdsi.UnitTests
 {
@@ -19,7 +20,7 @@ namespace OpenCdsi.UnitTests
         [TestMethod]
         public void CanGetANamedTestcase()
         {
-            var sut = Library.Cases[TID];
+            var sut = Cdsi.Cases[TID];
             Assert.IsInstanceOfType(sut, typeof(testcase));
             Assert.AreEqual(sut.CdcTestId, TID);
         }
@@ -27,7 +28,7 @@ namespace OpenCdsi.UnitTests
         [TestMethod]
         public void ThereAreNumTestcases()
         {
-            Assert.AreEqual(NUM_TESTS, Library.Cases.Count);
+            Assert.AreEqual(NUM_TESTS, Cdsi.Cases.Count);
         }
     }
 }
