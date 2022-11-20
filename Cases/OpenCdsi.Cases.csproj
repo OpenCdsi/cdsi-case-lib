@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="xlsx\cdsi-healthy-childhood-and-adult-test-cases-v4.28.xlsx" />
+    <None Remove="resources\cdsi-healthy-childhood-and-adult-test-cases-v4.28.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="xlsx\cdsi-healthy-childhood-and-adult-test-cases-v4.28.xlsx" />
+    <EmbeddedResource Include="resources\cdsi-healthy-childhood-and-adult-test-cases-v4.28.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
