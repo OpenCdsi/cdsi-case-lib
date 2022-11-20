@@ -2,6 +2,6 @@
 {
     public static class Metadata
     {
-        public static string Version => "4.28";
+        public static string ResourceVersion => "4.28";
     }
 }
