@@ -4,15 +4,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace OpenCdsi.UnitTests
 {
     [TestClass]
-    public class TestCaseTests
+    public class CaseTests
     {
         const string TID = "2013-0083";
-        const int NUM_TESTS = 801;
+        const int NUM_TESTS = 928;
 
         [TestMethod]
         public void CanGetANamedTestcase()
         {
-            var sut = Library.Testcases[TID];
+            var sut = Library.Cases[TID];
             Assert.IsInstanceOfType(sut, typeof(testcase));
             Assert.AreEqual(sut.CdcTestId,TID);
         }
@@ -20,7 +20,7 @@ namespace OpenCdsi.UnitTests
         [TestMethod]
         public void ThereAreNumTestcases()
         {
-            Assert.AreEqual(NUM_TESTS, Library.Testcases.Count);
+            Assert.AreEqual(NUM_TESTS, Library.Cases.Count);
         }
     }
 }
