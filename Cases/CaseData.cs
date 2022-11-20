@@ -1,10 +1,10 @@
 ﻿using OpenCdsi.Cases;
 
-namespace System
+namespace OpenCdsi
 {
-    public partial class Cdsi
+    public class CaseLibrary
     {
-        private static IDictionary<string, testcase> _cases = Factories.CreateTestcaseMap();
-        public static IDictionary<string, testcase> Cases => _cases;
+        private static readonly IReadOnlyDictionary<string, testcase> _cases = (IReadOnlyDictionary<string, testcase>)Factories.CreateTestcaseMap();
+        public static IReadOnlyDictionary<string, testcase> Cases => _cases;
     }
 }
